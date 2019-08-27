@@ -34,7 +34,7 @@ import static maze.model.Cell.Type.PASSAGE;
  * <p>
  * Internally, it it creates a tree of edges between cells in a square
  * of doubly decreased size such that all cells are in the one
- * <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_Kruskal's_algorithm">
+ * <a href="https://en.wikipedia.org/wiki/Component_(graph_theory)">
  * connected component</a>.
  * <p>
  * <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_Kruskal's_algorithm">
@@ -43,7 +43,7 @@ import static maze.model.Cell.Type.PASSAGE;
  * Initially, there is a set of all possible edges in the small grid.
  * On each step of the algorithm it removes one of the edges such
  * that an edge connects two distinct connected components.
- * At the end, each of cell is connected to the others in a one way.
+ * At the end, each cell is connected to the others in a one way.
  * <p>
  * For example, ({@code width = 9} and {@code height = 9}) were given.
  * It corresponds with the following maze where the entrance, the exit

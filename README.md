@@ -16,7 +16,7 @@ It is a simple Java application and it only requires JDK 11 on your machine.
 
 ```bash
 git clone https://github.com/malkfilipp/maze-runner.git
-cd travelplanner
+cd maze-runner
 ```
 
 **2. Compile**
